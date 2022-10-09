@@ -1,0 +1,118 @@
+@import 'bussines.scss';
+@import 'webshop.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #141b1c;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.price-card {
+  width: 380px;
+  /*max-height: 770px;*/
+  background: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  margin-top: 115px;
+  padding-bottom: 40px;
+
+  &__title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 33px;
+  }
+
+  &__subtitle {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__price {
+    width: 100%;
+    background-color: #5bb189;
+    margin: 0;
+    margin-top: 52px;
+  }
+
+  &__price-text {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    text-align: center;
+    padding-top: 19px;
+    padding-bottom: 19px;
+  }
+
+  &__text {
+    width: 327px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+  }
+
+  &__list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__list-section {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    &:nth-child(odd) {
+      background-color: #2a343880;
+    }
+  }
+
+  &__list-icon {
+    margin-left: 22px;
+  }
+
+  &__list-item {
+    list-style-type: none;
+    margin-left: 22px;
+  }
+
+  &__order-btn {
+    display: block;
+    margin: auto;
+    margin-top: 39px;
+    padding: 11px 26px 12px 27px;
+    width: 153px;
+    background: #5bb189;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+  }
+}
