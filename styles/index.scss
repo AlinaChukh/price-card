@@ -1,5 +1,6 @@
 @import 'bussines.scss';
 @import 'webshop.scss';
+@import 'basic.scss';
 
 * {
   box-sizing: border-box;
@@ -10,58 +11,60 @@ html {
 }
 
 body {
+  height: 100vh;
   background-color: #141b1c;
   color: #ffffff;
-  display: flex;
-  justify-content: center;
   overflow: hidden;
-  width: 1440px;
+}
+
+.price-table {
+  margin-top: 115px;
+  margin-bottom: 115px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .price-card {
   width: 380px;
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
-  margin-top: 115px;
-  margin-bottom: 115px;
+  padding-bottom: 40px;
 
   &__title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title-title {
     font-weight: 700;
     font-size: 35px;
     line-height: 43px;
     text-align: center;
     margin: 0;
     margin-top: 33px;
-    padding: 0;
   }
 
-  &__subtitle {
+  &__title-subtitle {
     font-weight: 300;
     font-size: 20px;
     line-height: 24px;
     text-align: center;
-    margin: 0;
-    padding: 0;
   }
 
   &__price {
     width: 100%;
-    background-color: #5bb189;
     margin: 0;
     margin-top: 33px;
-  }
-
-  &__price-text {
     font-weight: 700;
     font-size: 55px;
     line-height: 67px;
     text-align: center;
     padding-top: 19px;
     padding-bottom: 19px;
-    margin: 0;
   }
 
-  &__text {
+  &__description {
     width: 327px;
     font-weight: 300;
     font-size: 15px;
@@ -93,8 +96,10 @@ body {
 
   &__list-icon {
     margin-top: 18px;
-    margin-bottom: 18px;
+    margin-bottom: 19px;
     margin-left: 22px;
+    height: 13px;
+    width: 15px;
   }
 
   &__list-item {
@@ -108,15 +113,12 @@ body {
     display: block;
     margin: auto;
     margin-top: 39px;
-    margin-bottom: 40px;
     padding: 11px 26px 12px 27px;
     width: 153px;
-    background: #5bb189;
     border: none;
     border-radius: 20px;
     text-transform: uppercase;
     align-items: center;
-    font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     color: #ffffff;
