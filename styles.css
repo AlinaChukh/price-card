@@ -49,6 +49,7 @@ body {
   color: #ffffff;
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 .price-card {
@@ -90,6 +91,8 @@ body {
   text-align: center;
   padding-top: 19px;
   padding-bottom: 19px;
+  margin-top: 33px;
+  margin-bottom: 40px;
 }
 .price-card__text {
   width: 327px;
@@ -100,7 +103,7 @@ body {
   margin: auto;
   margin-top: 40px;
 }
-.price-card__list {
+.price-card__options-list {
   width: 100%;
   margin: 0;
   padding: 0;
