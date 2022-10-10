@@ -51,7 +51,6 @@ body {
   justify-content: center;
   overflow: hidden;
   width: 1440px;
-  height: 1000px;
 }
 
 .price-card {
@@ -112,7 +111,6 @@ body {
   align-items: flex-start;
 }
 .price-card__list-section {
-  height: 50px;
   display: flex;
   align-items: center;
   width: 100%;
@@ -121,10 +119,14 @@ body {
   background-color: rgba(42, 52, 56, 0.5019607843);
 }
 .price-card__list-icon {
+  margin-top: 18px;
+  margin-bottom: 18px;
   margin-left: 22px;
 }
 .price-card__list-item {
   list-style-type: none;
+  margin-top: 16px;
+  margin-bottom: 16px;
   margin-left: 22px;
 }
 .price-card__order-btn {

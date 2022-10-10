@@ -16,7 +16,6 @@ body {
   justify-content: center;
   overflow: hidden;
   width: 1440px;
-  height: 1000px;
 }
 
 .price-card {
@@ -83,7 +82,6 @@ body {
   }
 
   &__list-section {
-    height: 50px;
     display: flex;
     align-items: center;
     width: 100%;
@@ -94,11 +92,15 @@ body {
   }
 
   &__list-icon {
+    margin-top: 18px;
+    margin-bottom: 18px;
     margin-left: 22px;
   }
 
   &__list-item {
     list-style-type: none;
+    margin-top: 16px;
+    margin-bottom: 16px;
     margin-left: 22px;
   }
 
