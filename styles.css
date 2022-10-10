@@ -54,12 +54,8 @@ body {
 
 .price-card {
   width: 380px;
-  /*max-height: 770px;*/
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
-  margin-top: 115px;
-  padding-bottom: 40px;
-  margin-bottom: 115px;
 }
 .price-card__title {
   font-weight: 700;
@@ -67,8 +63,8 @@ body {
   line-height: 43px;
   text-align: center;
   margin: 0;
+  margin-top: 33px;
   padding: 0;
-  padding-top: 33px;
 }
 .price-card__subtitle {
   font-weight: 300;
@@ -82,7 +78,7 @@ body {
   width: 100%;
   background-color: #5bb189;
   margin: 0;
-  margin-top: 52px;
+  margin-top: 33px;
 }
 .price-card__price-text {
   font-weight: 700;
@@ -91,8 +87,7 @@ body {
   text-align: center;
   padding-top: 19px;
   padding-bottom: 19px;
-  margin-top: 33px;
-  margin-bottom: 40px;
+  margin: 0;
 }
 .price-card__text {
   width: 327px;
@@ -132,6 +127,7 @@ body {
   display: block;
   margin: auto;
   margin-top: 39px;
+  margin-bottom: 40px;
   padding: 11px 26px 12px 27px;
   width: 153px;
   background: #5bb189;
