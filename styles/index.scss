@@ -79,7 +79,6 @@ body {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
   }
 
   &__list-section {
@@ -91,20 +90,19 @@ body {
       background-color: #2a343880;
     }
   }
-
-  &__list-icon {
+  .checkmark {
     margin-top: 18px;
     margin-bottom: 19px;
-    margin-left: 22px;
+    margin-right: 22px;
     height: 13px;
     width: 15px;
   }
 
   &__list-item {
     list-style-type: none;
-    margin-top: 16px;
-    margin-bottom: 16px;
     margin-left: 22px;
+    display: flex;
+    align-items: center;
   }
 
   &__order-btn {

@@ -2,6 +2,10 @@
   background-color: #3a6ba5;
 }
 
+.checkmark__blue {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+}
+
 .price-card.bussines {
   margin-left: 18px;
   margin-right: 18px;
@@ -31,8 +35,16 @@
   background-color: #ec632a;
 }
 
+.checkmark__orange {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+}
+
 .color_green {
   background-color: #5bb189;
+}
+
+.checkmark__green {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
 }
 
 * {
@@ -107,7 +119,6 @@ body {
   margin-top: 40px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
 }
 .price-card__list-section {
   display: flex;
@@ -117,18 +128,18 @@ body {
 .price-card__list-section:nth-child(odd) {
   background-color: rgba(42, 52, 56, 0.5019607843);
 }
-.price-card__list-icon {
+.price-card .checkmark {
   margin-top: 18px;
   margin-bottom: 19px;
-  margin-left: 22px;
+  margin-right: 22px;
   height: 13px;
   width: 15px;
 }
 .price-card__list-item {
   list-style-type: none;
-  margin-top: 16px;
-  margin-bottom: 16px;
   margin-left: 22px;
+  display: flex;
+  align-items: center;
 }
 .price-card__order-btn {
   display: block;
