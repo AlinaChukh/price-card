@@ -1,5 +1,5 @@
 .color_blue {
-  background-color: #3a6ba5;
+  background-color: $color-blue;
 }
 
 .checkmark__blue {
@@ -19,7 +19,7 @@
 .price-card__popular {
   width: 147px;
   height: 25px;
-  background-color: #dc3f45;
+  background-color: $color-red;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;

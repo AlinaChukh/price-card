@@ -1,3 +1,4 @@
+@import 'variabless.scss';
 @import 'bussines.scss';
 @import 'webshop.scss';
 @import 'basic.scss';
@@ -12,8 +13,8 @@ html {
 
 body {
   height: 100vh;
-  background-color: #141b1c;
-  color: #ffffff;
+  background-color: $color-page;
+  color: $color-white;
   overflow: hidden;
   display: flex;
 }
@@ -25,7 +26,7 @@ body {
 
 .price-card {
   width: 380px;
-  background: #334247;
+  background: $color-card;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   padding-bottom: 40px;
 
@@ -81,28 +82,19 @@ body {
     flex-direction: column;
   }
 
-  &__list-section {
-    display: flex;
-    align-items: center;
-    width: 100%;
-
-    &:nth-child(odd) {
-      background-color: #2a343880;
-    }
-  }
   .checkmark {
-    margin-top: 18px;
-    margin-bottom: 19px;
-    margin-right: 22px;
+    margin: 18px 22px 22px 19px;
     height: 13px;
     width: 15px;
   }
 
   &__list-item {
     list-style-type: none;
-    margin-left: 22px;
     display: flex;
     align-items: center;
+    &:nth-child(odd) {
+      background-color: $color-item;
+    }
   }
 
   &__order-btn {
@@ -117,6 +109,6 @@ body {
     align-items: center;
     font-size: 14px;
     line-height: 17px;
-    color: #ffffff;
+    color: $color-white;
   }
 }

@@ -120,26 +120,18 @@ body {
   display: flex;
   flex-direction: column;
 }
-.price-card__list-section {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-.price-card__list-section:nth-child(odd) {
-  background-color: rgba(42, 52, 56, 0.5019607843);
-}
 .price-card .checkmark {
-  margin-top: 18px;
-  margin-bottom: 19px;
-  margin-right: 22px;
+  margin: 18px 22px 22px 19px;
   height: 13px;
   width: 15px;
 }
 .price-card__list-item {
   list-style-type: none;
-  margin-left: 22px;
   display: flex;
   align-items: center;
+}
+.price-card__list-item:nth-child(odd) {
+  background-color: rgba(42, 52, 56, 0.5019607843);
 }
 .price-card__order-btn {
   display: block;
