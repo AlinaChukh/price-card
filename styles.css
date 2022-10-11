@@ -48,14 +48,12 @@ body {
   background-color: #141b1c;
   color: #ffffff;
   overflow: hidden;
+  display: flex;
 }
 
 .price-table {
-  margin-top: 115px;
-  margin-bottom: 115px;
+  margin: auto;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
 
 .price-card {
