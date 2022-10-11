@@ -83,15 +83,17 @@ body {
   }
 
   .checkmark {
-    margin: 18px 22px 22px 19px;
+    margin: 18px 22px 19px 22px;
     height: 13px;
     width: 15px;
   }
 
   &__list-item {
+    font-size: 15px;
     list-style-type: none;
     display: flex;
     align-items: center;
+    height: 50px;
     &:nth-child(odd) {
       background-color: $color-item;
     }

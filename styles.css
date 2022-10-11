@@ -121,14 +121,16 @@ body {
   flex-direction: column;
 }
 .price-card .checkmark {
-  margin: 18px 22px 22px 19px;
+  margin: 18px 22px 19px 22px;
   height: 13px;
   width: 15px;
 }
 .price-card__list-item {
+  font-size: 15px;
   list-style-type: none;
   display: flex;
   align-items: center;
+  height: 50px;
 }
 .price-card__list-item:nth-child(odd) {
   background-color: rgba(42, 52, 56, 0.5019607843);
